@@ -1,0 +1,253 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "phone": "08123456789",
+      "balance": 5000,
+      "packages": [
+        {
+          "id": 1,
+          "title": "Paket 3GB 7 Hari",
+          "type": "Internet",
+          "remainingQuota": "8GB",
+          "status": "Aktif",
+          "expiryDate": "2025-08-20T12:00:00Z"
+        },
+        {
+          "id": 2,
+          "title": "Paket Nelpon 500 Menit",
+          "type": "Telepon",
+          "remainingQuota": "250 menit",
+          "status": "Aktif",
+          "expiryDate": "2025-08-18T10:00:00Z"
+        },
+        {
+          "id": 3,
+          "title": "Paket SMS 300",
+          "type": "SMS",
+          "remainingQuota": "150 SMS",
+          "status": "Aktif",
+          "expiryDate": "2025-08-16T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "phone": "083333333333",
+      "balance": 4910000,
+      "packages": [
+        {
+          "id": 1,
+          "title": "Paket 30GB 60 Hari",
+          "type": "Internet",
+          "remainingQuota": "50GB",
+          "status": "Aktif",
+          "expiryDate": "2025-08-30T12:00:00Z"
+        },
+        {
+          "id": 2,
+          "title": "Paket Nelpon 1000 Menit",
+          "type": "Telepon",
+          "remainingQuota": "1750 menit",
+          "status": "Aktif",
+          "expiryDate": "2025-08-25T10:00:00Z"
+        },
+        {
+          "id": 3,
+          "title": "Paket SMS 500",
+          "type": "SMS",
+          "remainingQuota": "1500",
+          "status": "Aktif",
+          "expiryDate": "2025-08-21T08:01:49.605Z"
+        }
+      ]
+    }
+  ],
+  "promos": [
+    {
+      "id": "1",
+      "type": "Internet",
+      "title": "Paket 1GB 1 Hari",
+      "price": "Rp 10.000",
+      "duration": "1 hari"
+    },
+    {
+      "id": "2",
+      "type": "Internet",
+      "title": "Paket 5GB 3 Hari",
+      "price": "Rp 15.000",
+      "duration": "3 hari"
+    },
+    {
+      "id": "3",
+      "type": "Internet",
+      "title": "Paket 10GB 7 Hari",
+      "price": "Rp 30.000",
+      "duration": "7 hari"
+    },
+    {
+      "id": "4",
+      "type": "Internet",
+      "title": "Paket 20GB 30 Hari",
+      "price": "Rp 55.000",
+      "duration": "30 hari"
+    },
+    {
+      "id": "5",
+      "type": "Internet",
+      "title": "Paket 30GB 60 Hari",
+      "price": "Rp 100.000",
+      "duration": "60 hari"
+    },
+    {
+      "id": "6",
+      "type": "Telepon",
+      "title": "Paket Nelpon 100 Menit",
+      "price": "Rp 5.000",
+      "duration": "3 hari"
+    },
+    {
+      "id": "7",
+      "type": "Telepon",
+      "title": "Paket Nelpon 300 Menit",
+      "price": "Rp 10.000",
+      "duration": "3 hari"
+    },
+    {
+      "id": "8",
+      "type": "Telepon",
+      "title": "Paket Nelpon 500 Menit",
+      "price": "Rp 20.000",
+      "duration": "7 hari"
+    },
+    {
+      "id": "9",
+      "type": "Telepon",
+      "title": "Paket Nelpon 1000 Menit",
+      "price": "Rp 35.000",
+      "duration": "15 hari"
+    },
+    {
+      "id": "10",
+      "type": "Telepon",
+      "title": "Paket Nelpon 1500 Menit",
+      "price": "Rp 45.000",
+      "duration": "30 hari"
+    },
+    {
+      "id": "11",
+      "type": "SMS",
+      "title": "Paket SMS 100",
+      "price": "Rp 5.000",
+      "duration": "3 hari"
+    },
+    {
+      "id": "12",
+      "type": "SMS",
+      "title": "Paket SMS 300",
+      "price": "Rp 10.000",
+      "duration": "3 hari"
+    },
+    {
+      "id": "13",
+      "type": "SMS",
+      "title": "Paket SMS 500",
+      "price": "Rp 20.000",
+      "duration": "7 hari"
+    },
+    {
+      "id": "14",
+      "type": "SMS",
+      "title": "Paket SMS 1000",
+      "price": "Rp 35.000",
+      "duration": "15 hari"
+    },
+    {
+      "id": "15",
+      "type": "SMS",
+      "title": "Paket SMS 1500",
+      "price": "Rp 45.000",
+      "duration": "30 hari"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "userId": 1,
+      "promoTitle": "Paket 5GB 3 Hari",
+      "price": "Rp 15.000",
+      "purchaseDate": "2025-08-12T10:30:00Z",
+      "duration": "3 hari"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "promoTitle": "Paket Nelpon 300 Menit",
+      "price": "Rp 10.000",
+      "purchaseDate": "2025-08-10T09:15:00Z",
+      "duration": "3 hari"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "promoTitle": "Paket SMS 500",
+      "price": "Rp 20.000",
+      "purchaseDate": "2025-08-08T15:45:00Z",
+      "duration": "7 hari"
+    },
+    {
+      "id": "c934",
+      "userId": "1",
+      "promoTitle": "Paket 10GB 7 Hari",
+      "price": "Rp 30.000",
+      "purchaseDate": "2025-08-14T07:56:34.038Z",
+      "duration": "7 hari",
+      "paymentMethod": "Pulsa"
+    },
+    {
+      "id": "5528",
+      "userId": "1",
+      "promoTitle": "Paket 5GB 3 Hari",
+      "price": "Rp 15.000",
+      "purchaseDate": "2025-08-14T08:01:10.549Z",
+      "duration": "3 hari",
+      "paymentMethod": "Pulsa"
+    },
+    {
+      "id": "7747",
+      "userId": "2",
+      "promoTitle": "Paket SMS 500",
+      "price": "Rp 20.000",
+      "purchaseDate": "2025-08-14T08:01:49.617Z",
+      "duration": "7 hari",
+      "paymentMethod": "Pulsa"
+    },
+    {
+      "id": "b684",
+      "userId": "2",
+      "promoTitle": "Paket SMS 1000",
+      "price": "Rp 35.000",
+      "purchaseDate": "2025-08-14T08:06:12.352Z",
+      "duration": "15 hari",
+      "paymentMethod": "Pulsa"
+    },
+    {
+      "id": "fd60",
+      "userId": "2",
+      "promoTitle": "Paket Nelpon 1000 Menit",
+      "price": "Rp 35.000",
+      "purchaseDate": "2025-08-14T08:06:22.556Z",
+      "duration": "15 hari",
+      "paymentMethod": "Pulsa"
+    },
+    {
+      "id": "911d",
+      "userId": "2",
+      "promoTitle": "Paket 30GB 60 Hari",
+      "price": "Rp 100.000",
+      "purchaseDate": "2025-08-14T08:06:36.306Z",
+      "duration": "60 hari",
+      "paymentMethod": "ATM"
+    }
+  ]
+}

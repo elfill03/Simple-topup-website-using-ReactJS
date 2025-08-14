@@ -1,0 +1,36 @@
+.promo-container {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  cursor: grab;
+  user-select: none;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
+}
+
+.promo-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.promo-card:hover {
+  transform: scale(1.02) translate(2px, -2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.promo-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.promo-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.promo-container::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+}
+
+.btn-logout:hover{
+ background-color: #720000 !important;
+}
